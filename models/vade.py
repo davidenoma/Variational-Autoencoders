@@ -2,7 +2,7 @@ import numpy as np
 import tensorflow as tf
 import tensorflow_probability as tfp
 
-from models.betavae import BetaVAE
+from models.betavae_ import BetaVAE
 from utils.losses import compute_log_normal_pdf, compute_log_bernouli_pdf
 
 class Parameters(tf.keras.layers.Layer):

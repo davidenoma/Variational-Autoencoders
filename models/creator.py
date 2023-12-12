@@ -1,6 +1,6 @@
 #%%
-from models.betavae import BetaVAE
-from models.cvae import CVAE
+from models.betavae_ import BetaVAE
+from models.cvae_ import CVAE
 from models.tcvae import TCVAE
 from models.factorvae import FactorVAE
 from models.rfvae import RFVAE

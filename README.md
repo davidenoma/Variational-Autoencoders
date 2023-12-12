@@ -31,7 +31,7 @@ pip install -r requirements.txt
   ![vade-latent](./assets/vade_latent_embedding_epoch_0100.png)
 
 ## Conditional Variational Autoencoder
-[Implementation](./models/cvae.py) of conditional variational autoencoder from [Learning Structured Output Representation using Deep Conditional Generative Models (Sohn et al., NeurIPS 2015)](https://papers.nips.cc/paper/2015/hash/8d55a249e6baa5c06772297520da2051-Abstract.html).
+[Implementation](./models/cvae_.py) of conditional variational autoencoder from [Learning Structured Output Representation using Deep Conditional Generative Models (Sohn et al., NeurIPS 2015)](https://papers.nips.cc/paper/2015/hash/8d55a249e6baa5c06772297520da2051-Abstract.html).
   ### Generated Images
   ![cvae-sample](./assets/cvae.gif)
   ### Latent Representations (`each row is conditioned on digits`)
@@ -54,7 +54,7 @@ pip install -r requirements.txt
   ![tcvae-latent](./assets/tcvae_latent_embedding.png)
 
 ## (Beta) Variational Autoencoder
-[Implementation](./models/betavae.py) of variational autoencoder from [Auto-Encoding Variational Bayes (Kingma et al., ICLR 2014)](https://arxiv.org/abs/1312.6114) and beta variational autoencoder from [beta-VAE: Learning Basic Visual Concepts with a Constrained Variational Framework (Higgins et al., ICLR 2017)](https://openreview.net/forum?id=Sy2fzU9gl).
+[Implementation](./models/betavae_.py) of variational autoencoder from [Auto-Encoding Variational Bayes (Kingma et al., ICLR 2014)](https://arxiv.org/abs/1312.6114) and beta variational autoencoder from [beta-VAE: Learning Basic Visual Concepts with a Constrained Variational Framework (Higgins et al., ICLR 2017)](https://openreview.net/forum?id=Sy2fzU9gl).
   ### Generated Images
   ![beta-vae-sample](./assets/betavae.gif)
   ### Latent Representations

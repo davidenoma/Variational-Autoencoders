@@ -1,6 +1,6 @@
 import tensorflow as tf
 
-from models.betavae import BetaVAE
+from models.betavae_ import BetaVAE
 from utils.losses import compute_log_bernouli_pdf, compute_kl_divergence_standard_prior, compute_total_correlation
 
 class TCVAE(BetaVAE):

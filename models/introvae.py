@@ -2,7 +2,7 @@ import numpy as np
 import tensorflow as tf
 
 from utils.losses import compute_kl_divergence_standard_prior, compute_log_bernouli_pdf
-from models.betavae import BetaVAE
+from models.betavae_ import BetaVAE
 
 class IntroVAE(BetaVAE):
   def __init__(self, latent_dim, input_dims=(28, 28, 1), kernel_size=(3, 3), strides=(2, 2), prefix='tcvae'):

@@ -1,8 +1,8 @@
 imageio
-tensorflow==2.8.0
-tensorflow-addons==0.14.0
+tensorflow
+tensorflow-addons
 tensorflow-datasets
-tensorflow-probability==0.16.0
+tensorflow-probability
 tensorflow-hub
 bokeh
 colorcet
